@@ -1074,3 +1074,9 @@ a:hover {
     color: #ddd;
     font-size: 14px;
 }
+
+/* Custom Css */
+
+table.gallery td.details {
+    background-color: #f5f5f5;
+}
