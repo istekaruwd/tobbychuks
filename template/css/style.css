@@ -443,21 +443,28 @@ a:hover {
 		width: 100% !important;
 		height: auto !important;
 		opacity: 1;
+        padding: 0;
 	}
 	.slider label img {
 	    position: static;
 	    transform: translateY(0);
 	    padding: 10px;
+        max-height: initial;
+        max-width: inherit;
+        width: 100%;
 	}
 	.product-description {
 		margin-bottom: 35px;
 	}
 	.main-tab label {
-		display: block;
+		padding: 10px;
 	}
 	.hdr-logo a img,
 	.ftr-logo a img {
 		height: 50px;
 	}
+    .promo-area:after {
+        display: none;
+    }
 	
 }
